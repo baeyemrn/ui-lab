@@ -1,12 +1,12 @@
 # UI lab results
-Tool parts that I chose:
+Tool parts that I chose: Part 3 (Robot Framework) and Part 4 (Cypress)
 ## Part 0
 - Step 0.1, Chrome version: 156.0.8078.82 (รุ่นที่เป็นทางการ) (arm64)
 - Step 0.3, ChromeDriver version: ChromeDriver 156.0.8078.82 (58d3ba996be0cba47b6bcd928490da32a0e0edaf-refs/branch-heads/8078@{#1707})
-- Step 0.4, locator of Pizza, Please!:
-- Step 0.4, locator of Excluded tools:
-- Step 0.4, locator of Must be vegetarian:
-- Step 0.4, locator of Custom Pizza Name:
+- Step 0.4, locator of Pizza, Please!: `button[name="pizza-please"]` (CSS)
+- Step 0.4, locator of Excluded tools: `select` (CSS, the only select on the page)
+- Step 0.4, locator of Must be vegetarian: `#default-checkbox` (CSS)
+- Step 0.4, locator of Custom Pizza Name: `input#pizza-name` (CSS; `#pizza-name` alone finds 2 elements after Pizza, Please!)
 - Step 0.5, pizza name, tool and calories of the run by hand:
 | Step | Actual result | Pass or fail |
 |------|---------------|--------------|
@@ -17,20 +17,6 @@ Tool parts that I chose:
 | 5    |               |              |
 | 6    |               |              |
 | 7    |               |              |
-## Part 1: Selenium IDE
-- Firefox version and Node.js version:
-- Step 1.4, the line of the failed check and the line Tests:
-- Step 1.5, target chosen for Submit, and why the recorded one was fragile:
-- Step 1.6, commands changed, added or deleted after recording:
-- Step 1.6, the pizza names of run 1 and run 2, from the lines info: echo:
-- Step 1.6, the line Tests: of both runs:
-- Step 1.7, one line of QP01customerTest.java that needs rewriting, and why:
-## Part 2: Selenium WebDriver in Java
-- Step 2.4, the failure line for the wrong title:
-- Step 2.15, QP01Test run 1, result and time:
-- Step 2.15, QP01Test run 2, result and time:
-- Step 2.20, full run 1, time and number of tests:
-- Step 2.20, full run 2, time and number of tests:
 ## Part 3: Robot Framework
 - robot --version:
 - Step 3.2, failure message for the wrong title:

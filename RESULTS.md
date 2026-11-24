@@ -25,12 +25,12 @@ Tool parts that I chose: Part 3 (Robot Framework) and Part 4 (Cypress)
 - Step 3.8, run 1, result, elapsed time and pizza name: PASS (1 test, 1 passed, 0 failed), 00:00:07.593, Lab Pizza 20261124-211608
 - Step 3.8, run 2, result, elapsed time and pizza name: PASS (1 test, 1 passed, 0 failed), 00:00:06.586, Lab Pizza 20261124-211615
 ## Part 4: Cypress
-- node --version, npm --version and npx cypress version: v22.20.0, 10.9.3, Cypress package 16.2.1 / binary 16.2.1 (Electron 41.7.0, bundled Node 24.15.0)
+- node --version, npm --version and npx cypress version: v22.20.0, 10.9.3, Cypress 16.3.0 (first installed 16.2.1; with Chrome 158, 16.2.1 crashed with "Error: * is not a valid URL" when cypress run started the second spec, even with two empty specs, so I upgraded to 16.3.0, which fixes it)
 - Step 4.3, failure message for the wrong title: Timed out retrying after 10000ms, + expected - actual, -'Web form' +'Web Form'
 - Step 4.6, tool and calories in the answer of POST /api/pizza: tool Scissors, calories 575 (pizza Lab Pizza 20261124-213915)
 - Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261124-214155 (tool=Pizza cutter, ingredients_number=8)
-- Step 4.8, run 1, result, duration and pizza name:
-- Step 4.8, run 2, result, duration and pizza name:
+- Step 4.8, run 1, result, duration and pizza name: All specs passed! (2 tests, 2 passing), 00:10 (pizza-scenario 00:08, web-form 00:01), Lab Pizza 20261124-215039 (tool=Scissors); another user's pizza was the newest line above it
+- Step 4.8, run 2, result, duration and pizza name: All specs passed! (2 tests, 2 passing), 00:10 (pizza-scenario 00:08, web-form 00:01), Lab Pizza 20261124-215056 (tool=Pizza cutter, newest)
 - Step 4.9 (optional), browser and result:
 
 ## Part B

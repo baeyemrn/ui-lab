@@ -1,8 +1,8 @@
 # UI lab results
 Tool parts that I chose: Part 3 (Robot Framework) and Part 4 (Cypress)
 ## Part 0
-- Step 0.1, Chrome version: 156.0.8078.82 (รุ่นที่เป็นทางการ) (arm64)
-- Step 0.3, ChromeDriver version: ChromeDriver 156.0.8078.82 (58d3ba996be0cba47b6bcd928490da32a0e0edaf-refs/branch-heads/8078@{#1707})
+- Step 0.1, Chrome version: 158.0.8127.37 (arm64) (first 156.0.8078.82; Chrome updated itself during the lab, so Steps 0.1 to 0.3 were repeated)
+- Step 0.3, ChromeDriver version: ChromeDriver 158.0.8127.37 (b8c2be851f62f6a394ec57955d7f31335d7cb6d4-refs/branch-heads/8127@{#1692})
 - Step 0.4, locator of Pizza, Please!: `button[name="pizza-please"]` (CSS)
 - Step 0.4, locator of Excluded tools: `select` (CSS, the only select on the page)
 - Step 0.4, locator of Must be vegetarian: `#default-checkbox` (CSS)
@@ -21,7 +21,7 @@ Tool parts that I chose: Part 3 (Robot Framework) and Part 4 (Cypress)
 
 ## Part 3: Robot Framework
 - robot --version: Robot Framework 7.5.1 (Python 3.14.2 on darwin)
-- Step 3.2, failure message for the wrong title:
+- Step 3.2, failure message for the wrong title: Title should have been 'Web Form' but was 'Web form'.
 - Step 3.8, run 1, result, elapsed time and pizza name:
 - Step 3.8, run 2, result, elapsed time and pizza name:
 ## Part 4: Cypress

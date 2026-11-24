@@ -28,7 +28,7 @@ Tool parts that I chose: Part 3 (Robot Framework) and Part 4 (Cypress)
 - node --version, npm --version and npx cypress version: v22.20.0, 10.9.3, Cypress package 16.2.1 / binary 16.2.1 (Electron 41.7.0, bundled Node 24.15.0)
 - Step 4.3, failure message for the wrong title: Timed out retrying after 10000ms, + expected - actual, -'Web form' +'Web Form'
 - Step 4.6, tool and calories in the answer of POST /api/pizza: tool Scissors, calories 575 (pizza Lab Pizza 20261124-213915)
-- Step 4.7, the line of the admin list that shows your pizza:
+- Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261124-214155 (tool=Pizza cutter, ingredients_number=8)
 - Step 4.8, run 1, result, duration and pizza name:
 - Step 4.8, run 2, result, duration and pizza name:
 - Step 4.9 (optional), browser and result:
